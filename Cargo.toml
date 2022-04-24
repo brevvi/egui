@@ -25,6 +25,9 @@ members = [
     "examples/puffin_profiler",
     "examples/retained_image",
     "examples/svg",
+
+    "eframe",
+    "eframe/hello",
 ]
 
 [profile.dev]
