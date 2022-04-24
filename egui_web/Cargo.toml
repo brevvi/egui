@@ -41,6 +41,8 @@ screen_reader = ["tts"]
 
 
 [dependencies]
+egui_web = "0.17.0"
+
 egui = { version = "0.17.0", path = "../egui", default-features = false, features = [
   "bytemuck",
   "tracing",
@@ -52,7 +54,7 @@ bytemuck = "1.7"
 js-sys = "0.3"
 percent-encoding = "2.1"
 tracing = "0.1"
-wasm-bindgen = "0.2"
+wasm-bindgen = "0.2.80"
 wasm-bindgen-futures = "0.4"
 
 # Optional:
